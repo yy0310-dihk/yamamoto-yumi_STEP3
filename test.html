@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TNG CAFE</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <header>
+        <h1>TNG CAFE</h1>
+        <p>心安らぐ一杯をあなたに</p>
+
+        <!-- ナビゲーション -->
+        <nav>
+            <ul>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- About Us -->
+        <section id="aboutus">
+            <h2>About Us</h2>
+            <p>TNGCafeは自然の香りに包まれたリラックス空間を提供しています。<br>
+                自家焙煎コーヒーと手作りスイーツで、穏やかな時間をお過ごしください。
+            </p>
+            
+            <!-- 画像　-->
+            <img src="31747-357-0fdba6b2f01d87eb1706dfd8498dad42-918x510.webp" alt="カフェの写真">
+        </section>
+
+        <!-- Menu-->
+        <section id="menu">
+            <h2>Menu</h2>
+
+            <div class="menu-list">
+                <!-- コーヒー　-->
+                <div class="coffee">
+                    <img src="IMG_8689-1024x678.webp" alt="コーヒー">
+                    <p>ブレンドコーヒー</p>
+                </div>
+
+                <!-- ケーキ　-->
+                <div class="cake">
+                    <img src="images (1).jpg" alt="ケーキ">
+                    <p>ベイクドチーズケーキ</p>
+                </div>
+
+                <!-- ラテ　-->
+                <div class="latte">
+                    <img src="images.jpg" alt="ラテ">
+                    <p>カフェラテ</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <!-- 名前　-->
+                <label for="name">名前：</label>
+                <input type="text" id="name" name="name">
+            <!-- メールアドレス　-->
+                <label for="email">メールアドレス：</label>
+                <input type="email" id="email" name="email">
+
+                <!-- メッセージ　-->
+                <label for="message">メッセージ：</label>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+
+                <!-- 送信ボタン　-->
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 20○○ TNG CAFE</p>
+    </footer>
+</body>
+</html>

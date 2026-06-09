@@ -1,0 +1,129 @@
+/* 基本設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* 全体　*/
+header, nav, main, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #47885e;
+    display: inline-block;
+    border-bottom: 2px solid #88cb7f;
+}
+
+/* ヘッダー */
+header {
+    background-color: #47885e;
+    color: #fff;
+}
+
+/* ナビゲーション */
+nav ul{
+    list-style: none;
+    margin: 0 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #7b5544;
+    font-weight: bold;
+}
+
+/* メイン　*/
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* menu */
+.menu-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+}
+
+.coffee,.cake,.latte {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-list img {
+    width: 100%;
+}
+
+.coffee:hover,
+.cake:hover,
+.latte:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* フォーム */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input,textarea {
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #47885e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #316745;
+}
+
+/* フッター */
+footer {
+    color: white;
+    background-color: #3d3a27;
+    padding: 20px;
+}
